@@ -1,0 +1,35 @@
+{
+    "chat": {
+        "participants": [
+            "Austin",
+            "John"
+        ],
+        "messages": [
+            {
+                "id": 1,
+                "sender": "Austin",
+                "receiver": "John",
+                "message": "Hola, ¿cómo estás?",
+                "status": "unread"
+            },
+            {
+                "id": 2,
+                "sender": "John",
+                "receiver": "Austin",
+                "message": "ahi mas o allá  voy?",
+                "status": "unread"
+            },
+            {
+                "id": 3,
+                "sender": "Austin",
+                "receiver": "John",
+                "message": "estoy bien, y usted  cómo esta",
+                "status": "unread"
+            }
+        ],
+        "unread_count": {
+            "Austin": 0,
+            "John": 0
+        }
+    }
+}

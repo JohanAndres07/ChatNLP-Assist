@@ -1,0 +1,30 @@
+
+/** **************************************
+* Plugins
+*************************************** */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** **************************************
+* Clases btn
+*************************************** */
+.btn-focus:hover{
+    color: #515050;
+    transform: scale(1.1);
+}
+.btn-send:hover{
+    color: #75cf96;
+    transform: scale(1.1);
+}
+.text-transformer:hover{
+    transform: scale(1.1);
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.custom-bg {
+    background-image: url('./assets//Backgrounds/whatsapp-background.png');
+    background-size: cover;
+    background-position: center;
+}
