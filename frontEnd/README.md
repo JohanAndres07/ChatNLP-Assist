@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# ChatNLP-Assist - Frontend 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el frontend del proyecto **ChatNLP-Assist**. Está construido con **Vite** ⚡, **React** ⚛️ e **Iconify** 🔥.
 
-Currently, two official plugins are available:
+## Requisitos Previos 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Node.js** y **npm** (para gestionar dependencias). 💻
+- **Un editor de código recomendado**: [VS Code](https://code.visualstudio.com/) ✍️
 
-## Expanding the ESLint configuration
+## Dependencias 📦
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite** ⚡: Herramienta para la construcción y desarrollo del proyecto en React.
+- **React** ⚛️: Biblioteca para la construcción de interfaces de usuario.
+- **Iconify** 🔥: Sistema de iconos para la integración de íconos personalizados.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalación del Frontend ⚙️
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 1. Clonar el Repositorio 📂
+
+Si aún no has clonado el repositorio, clónalo con el siguiente comando:
+
+```bash
+git clone https://github.com/JohanAndres07/ChatNLP-Assist.git
+cd ChatNLP-Assist/frontEnd
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2. Instalar dependencias 📥
+```bash
+npm install 
+```
+## 3. Iniciar el Servidor de Desarrollo 🚀
+```bash
+npm run dev
 ```
